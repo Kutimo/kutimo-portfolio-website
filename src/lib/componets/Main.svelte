@@ -16,7 +16,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	width: 70%;
-	margin: 5% auto;
+	margin: 2% auto;
 	
 }
 	p,

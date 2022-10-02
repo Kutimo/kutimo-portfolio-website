@@ -6,6 +6,7 @@
 
 :root{
 --main_color: #101357;
+--main_75_color: #101457b4;
 --secondary_color: #626262;
 --light_color: #ffffff;
 --dark_color: #000000; 
@@ -22,7 +23,8 @@
 :global(p){
     font-family: poppins, sans-serif;
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: calc(1ex / 0.32);
 }
 :global(h1){
     font-family: "montserrat, sans-serif";
