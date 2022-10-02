@@ -30,6 +30,13 @@
     font-size: 6rem;
     line-height: 100%;
 }
+:global(h2){
+    font-family: "montserrat, sans-serif";
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 100%;
+}
+
 :global(body){
 
     background-color: var(--main_color);

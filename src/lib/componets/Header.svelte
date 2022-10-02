@@ -2,7 +2,9 @@
 	<img src="/images/logo.svg" alt="Kutimo lsogo" />
 
 	<ul>
-		<li>about</li>
+		<li>
+			<a href="#About">About</a>
+		</li>
 		<li>projects</li>
 		<li>Contact</li>
 	</ul>
@@ -31,5 +33,4 @@
 		display: inline;
 		margin: 15px;
 	}
-	
 </style>

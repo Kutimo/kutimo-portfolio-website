@@ -1,4 +1,4 @@
-<main>
+	<main>
 	<p>Hello, I am</p>
 	<h1>
 		Marius Kristiansen. <br />
