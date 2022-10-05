@@ -26,7 +26,7 @@
 			<p>Tempor nisi aliquip proident qui Elit eiusmod dolor eiusmod commodo laboris do culpa.</p>
 		</div>
 	</div>
-	<button>More projects</button>
+
 </section>
 
 <style>
@@ -42,6 +42,7 @@
 		color: var(--light_color);
 		display: flex;
 		align-items: center;
+        margin-top: 10%;
 	}
 	h2::after {
 		content: '';
@@ -56,36 +57,52 @@
 		justify-content: space-evenly;
 		flex-wrap: wrap;
 		gap: 30px;
-        padding: 20px;
+		padding: 20px;
+        margin-top: 5%;
 	}
 	.card {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		background-color: var(--light_color) ;
+		background-color: var(--light_75_color);
 		border-radius: 135px 135px 18px 18px;
 		height: 430px;
 		width: 270px;
 	}
-   .card:hover {
+	.card:hover {
 		filter: grayscale(80%);
-		transition-delay: 150ms;
 		height: 100%;
-		
-    }
+		box-shadow: 8px 8px 0px 10px rgba(0, 0, 0, 0.5);
+		transition: all 0.3s ease-out;
+        transition-delay: 200ms;
+		cursor: pointer;
+	}
 	img {
 		border-radius: 50%;
 		height: 226px;
 		width: 226px;
 		object-fit: cover;
 		padding: 15px;
+        transition-delay: 500ms;
 	}
+    img:hover {
+        border-radius: 0%;
+        height: 30  0px;
+		width: 300px;
+        object-fit: cover;
+        padding: 0px;
+        transition: all 0.3s ease-out;
+        transition-delay: 0ms;
+    }
+    img:hover, img   {
+        transition-delay: 250ms;
+    }
 	p {
-        color: var(--light_color);
+		color: var(--light_color);
 		background: var(--main_75_color);
 		border-radius: 21px;
 		padding: 10px;
 		margin: 15px;
-        text-align: center;
+		text-align: center;
 	}
 </style>

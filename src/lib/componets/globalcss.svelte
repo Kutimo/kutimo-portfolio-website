@@ -9,6 +9,7 @@
 --main_75_color: #101457b4;
 --secondary_color: #626262;
 --light_color: #ffffff;
+--light_75_color: #ffffffe3;
 --dark_color: #000000; 
 }
 
