@@ -17,9 +17,6 @@
     margin: 0;
     padding: 0;
     --header_style: "Montserrat, sans-serif";
-    --body_style: "poppins, sans serif";
-    --header_text: 6 rem;
-    --body_text: 3 rem;
 }
 :global(p){
     font-family: poppins, sans-serif;
@@ -41,7 +38,6 @@
 }
 
 :global(body){
-
     background-color: var(--main_color);
 }
 </style>

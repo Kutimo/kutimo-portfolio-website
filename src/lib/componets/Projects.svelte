@@ -64,7 +64,7 @@
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		background-color: var(--light_75_color);
+		background-color: var(--secondary_color);
 		border-radius: 135px 135px 18px 18px;
 		height: 430px;
 		width: 270px;
