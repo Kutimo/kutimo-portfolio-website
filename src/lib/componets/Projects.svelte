@@ -25,6 +25,7 @@
 			<img src="./images/placeholderimg.jpg" alt="textytext" />
 			<p>Tempor nisi aliquip proident qui Elit eiusmod dolor eiusmod commodo laboris do culpa.</p>
 		</div>
+        <button></button>
 	</div>
 
 </section>
@@ -105,4 +106,9 @@
 		margin: 15px;
 		text-align: center;
 	}
+
+    button {
+ width: 50%;
+ height: 25%;
+    }
 </style>
