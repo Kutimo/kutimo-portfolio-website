@@ -18,7 +18,7 @@
     padding: 0;
     --header_style: "Montserrat, sans-serif";
 }
-:global(p){
+:global(p, button){
     font-family: poppins, sans-serif;
     font-weight: lighter;
     font-size: 1.2rem;

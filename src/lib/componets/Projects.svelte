@@ -25,9 +25,8 @@
 			<img src="./images/placeholderimg.jpg" alt="textytext" />
 			<p>Tempor nisi aliquip proident qui Elit eiusmod dolor eiusmod commodo laboris do culpa.</p>
 		</div>
-        <button></button>
+		<button>More projects</button>
 	</div>
-
 </section>
 
 <style>
@@ -43,7 +42,7 @@
 		color: var(--light_color);
 		display: flex;
 		align-items: center;
-        margin-top: 10%;
+		margin-top: 10%;
 	}
 	h2::after {
 		content: '';
@@ -59,7 +58,7 @@
 		flex-wrap: wrap;
 		gap: 30px;
 		padding: 20px;
-        margin-top: 5%;
+		margin-top: 5%;
 	}
 	.card {
 		display: flex;
@@ -75,7 +74,7 @@
 		height: 100%;
 		box-shadow: 8px 8px 0px 10px rgba(0, 0, 0, 0.5);
 		transition: all 0.3s ease-out;
-        transition-delay: 200ms;
+		transition-delay: 200ms;
 		cursor: pointer;
 	}
 	img {
@@ -84,20 +83,21 @@
 		width: 226px;
 		object-fit: cover;
 		padding: 15px;
-        transition-delay: 500ms;
+		transition-delay: 500ms;
 	}
-    img:hover {
-        border-radius: 0%;
-        height: 30  0px;
+	img:hover {
+		border-radius: 0%;
+		height: 30 0px;
 		width: 300px;
-        object-fit: cover;
-        padding: 0px;
-        transition: all 0.3s ease-out;
-        transition-delay: 0ms;
-    }
-    img:hover, img   {
-        transition-delay: 250ms;
-    }
+		object-fit: cover;
+		padding: 0px;
+		transition: all 0.3s ease-out;
+		transition-delay: 0ms;
+	}
+	img:hover,
+	img {
+		transition-delay: 250ms;
+	}
 	p {
 		color: var(--light_color);
 		background: var(--main_75_color);
@@ -107,8 +107,21 @@
 		text-align: center;
 	}
 
-    button {
- width: 50%;
- height: 25%;
-    }
+	button {
+		width: 50%;
+		height: 35%;
+        padding: 10px;
+		background-color: transparent;
+		color: var(--light_color);
+        border: 1px solid var(--light_color);
+	}
+	button::after {
+        position: absolute;
+        content: '';
+		background-image: url("/images/project_button.svg");
+        height: 10%;
+        width: 5%;    
+        background-repeat: no-repeat;
+        margin-left: 10px;
+	}
 </style>
