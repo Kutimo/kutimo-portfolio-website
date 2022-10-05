@@ -25,8 +25,9 @@
 			<img src="./images/placeholderimg.jpg" alt="textytext" />
 			<p>Tempor nisi aliquip proident qui Elit eiusmod dolor eiusmod commodo laboris do culpa.</p>
 		</div>
-		<button>More projects</button>
+        <button>More projects</button>
 	</div>
+    
 </section>
 
 <style>
@@ -119,9 +120,10 @@
         position: absolute;
         content: '';
 		background-image: url("/images/project_button.svg");
-        height: 10%;
-        width: 5%;    
+        height: 44px;
+        width: 38px;    
         background-repeat: no-repeat;
+        background-position: center;
         margin-left: 10px;
 	}
 </style>
