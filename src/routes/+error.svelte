@@ -31,10 +31,10 @@
 		padding: 20px;
 	}
 	.flick {
-        -webkit-animation: flicker-1 0.9s linear infinite backwards;
-	        animation: flicker-1 1.9s linear infinite backwards;
+		-webkit-animation: flicker-1 0.9s linear infinite backwards;
+		animation: flicker-1 1.9s linear infinite backwards;
 	}
-   
+
 	.swing {
 		margin-top: 24%;
 		animation: swing ease-in-out 2s infinite alternate;
@@ -54,66 +54,64 @@
 		}
 	}
 
-
-
-    @-webkit-keyframes flicker-1 {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  41.99% {
-    opacity: 1;
-  }
-  42% {
-    opacity: 0;
-  }
-  43% {
-    opacity: 0;
-  }
-  43.01% {
-    opacity: 1;
-  }
-  47.99% {
-    opacity: 1;
-  }
-  48% {
-    opacity: 0;
-  }
-  49% {
-    opacity: 0;
-  }
-  49.01% {
-    opacity: 1;
-  }
-}
-@keyframes flicker-1 {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  41.99% {
-    opacity: 1;
-  }
-  42% {
-    opacity: 0;
-  }
-  43% {
-    opacity: 0;
-  }
-  43.01% {
-    opacity: 1;
-  }
-  47.99% {
-    opacity: 1;
-  }
-  48% {
-    opacity: 0;
-  }
-  49% {
-    opacity: 0;
-  }
-  49.01% {
-    opacity: 1;
-  }
-}
+	@-webkit-keyframes flicker-1 {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		41.99% {
+			opacity: 1;
+		}
+		42% {
+			opacity: 0;
+		}
+		43% {
+			opacity: 0;
+		}
+		43.01% {
+			opacity: 1;
+		}
+		47.99% {
+			opacity: 1;
+		}
+		48% {
+			opacity: 0;
+		}
+		49% {
+			opacity: 0;
+		}
+		49.01% {
+			opacity: 1;
+		}
+	}
+	@keyframes flicker-1 {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		41.99% {
+			opacity: 1;
+		}
+		42% {
+			opacity: 0;
+		}
+		43% {
+			opacity: 0;
+		}
+		43.01% {
+			opacity: 1;
+		}
+		47.99% {
+			opacity: 1;
+		}
+		48% {
+			opacity: 0;
+		}
+		49% {
+			opacity: 0;
+		}
+		49.01% {
+			opacity: 1;
+		}
+	}
 </style>

@@ -14,5 +14,3 @@
 <Main />
 <AboutSection />
 <Projects />
-
-
